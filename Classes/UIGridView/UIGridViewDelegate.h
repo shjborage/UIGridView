@@ -7,26 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIGridView.h"
 
-@protocol UIGridViewDelegate
+@protocol UIGridViewDelegate <NSObject>
 
 @optional
-- (void) gridView:(UIGridView *)grid didSelectRowAt:(int)rowIndex AndColumnAt:(int)columnIndex Section:(int)section;
-- (void)gridView:(UIGridView *)grid willDisplayRowAtIndexPath:(NSIndexPath *)indexPath;
-- (void)gridView:(UIGridView *)grid didEndDisplayingRowAtIndexPath:(NSIndexPath *)indexPath;
-- (void)gridView:(UIGridView *)grid didEditRowAt:(int)row AndColumnAt:(int)column InSection:(int)section;
-
+- (void) gridView:(UIGridView *)grid didSelectRowAt:(int)rowIndex AndColumnAt:(int)columnIndex;
 
 @required
-- (int) numberOfSectionInGridView:(UIGridView *)grid ;
-- (CGFloat) gridView:(UIGridView *)grid widthForColumnAt:(int)columnIndex Section:(int)section;
-- (CGFloat) gridView:(UIGridView *)grid heightForRowAt:(int)rowIndex Section:(int)section;
+- (CGFloat) gridView:(UIGridView *)grid widthForColumnAt:(int)columnIndex;
+- (CGFloat) gridView:(UIGridView *)grid heightForRowAt:(int)rowIndex;
 
-- (NSInteger) numberOfColumnsOfGridView:(UIGridView *) grid ForSection:(int)section;
-- (NSInteger) numberOfCellsOfGridView:(UIGridView *) grid ForSection:(int)section;
+- (NSInteger) numberOfColumnsOfGridView:(UIGridView *) grid;
+- (NSInteger) numberOfCellsOfGridView:(UIGridView *) grid;
 
-- (UIGridViewCell *) gridView:(UIGridView *)grid cellForRowAt:(int)rowIndex AndColumnAt:(int)columnIndex Section:(int)section;
+- (UIGridViewCell *) gridView:(UIGridView *)grid cellForRowAt:(int)rowIndex AndColumnAt:(int)columnIndex;
 
 @end
 

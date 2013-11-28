@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>48011B6C-2819-4EC4-960C-EB5FF3FDA276</string>
+	<key>IDESourceControlProjectName</key>
+	<string>uigridview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8EB2218-43E6-437D-B3E2-4D1464152149</key>
+		<string>https://github.com/shjborage/UIGridView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>uigridview.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8EB2218-43E6-437D-B3E2-4D1464152149</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shjborage/UIGridView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8EB2218-43E6-437D-B3E2-4D1464152149</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8EB2218-43E6-437D-B3E2-4D1464152149</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIGridView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

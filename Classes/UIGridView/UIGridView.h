@@ -11,15 +11,18 @@
 @protocol UIGridViewDelegate;
 @class UIGridViewCell;
 
-@interface UIGridView : UITableView<UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate> {
+@interface UIGridView : UITableView <
+UITableViewDelegate,
+UITableViewDataSource
+> {
 	UIGridViewCell *tempCell;
 }
 
 @property (nonatomic, retain) id<UIGridViewDelegate> uiGridViewDelegate;
 
-- (void) setUp;
-- (UIGridViewCell *) dequeueReusableCell;
+- (void)reloadData;
+- (UIGridViewCell *)dequeueReusableCell;
 
-- (void) cellPressed:(id) sender;
+- (void)cellPressed:(id)sender;
 
 @end

@@ -25,32 +25,28 @@
     [super dealloc];
 }
 
--(int) numberOfSectionInGridView:(UIGridView *)grid{
-    return 1;
-}
-
-- (CGFloat) gridView:(UIGridView *)grid widthForColumnAt:(int)columnIndex Section:(int)section
+- (CGFloat) gridView:(UIGridView *)grid widthForColumnAt:(int)columnIndex
 {
 	return 160;
 }
 
-- (CGFloat) gridView:(UIGridView *)grid heightForRowAt:(int)rowIndex Section:(int)section
+- (CGFloat) gridView:(UIGridView *)grid heightForRowAt:(int)rowIndex
 {
 	return 80;
 }
 
-- (NSInteger) numberOfColumnsOfGridView:(UIGridView *) grid ForSection:(int)section
+- (NSInteger) numberOfColumnsOfGridView:(UIGridView *) grid
 {
 	return 2;
 }
 
 
-- (NSInteger) numberOfCellsOfGridView:(UIGridView *) grid ForSection:(int)section
+- (NSInteger) numberOfCellsOfGridView:(UIGridView *) grid
 {
 	return objectNumber;
 }
 
-- (UIGridViewCell *) gridView:(UIGridView *)grid cellForRowAt:(int)rowIndex AndColumnAt:(int)columnIndex Section:(int)section
+- (UIGridViewCell *) gridView:(UIGridView *)grid cellForRowAt:(int)rowIndex AndColumnAt:(int)columnIndex
 {
 	Cell *cell = (Cell *)[grid dequeueReusableCell];
 	
@@ -59,7 +55,6 @@
 	}
 	
 	cell.label.text = [NSString stringWithFormat:@"(%d,%d)", rowIndex, columnIndex];
-    [cell setEditable:YES];
 	
 	return cell;
 }

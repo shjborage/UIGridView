@@ -7,20 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIIndexedButton.h"
 
-
-@interface UIGridViewCell : UIView {
+@interface UIGridViewCell : UIButton {
 
 }
 
 @property int rowIndex;
 @property int colIndex;
-@property int sectionIndex;
 @property (nonatomic, retain) IBOutlet UIView *view;
-@property (nonatomic, assign) BOOL isEditing;
-@property BOOL editable;
-@property (nonatomic, retain) UIIndexedButton *deleteButton;
-@property (nonatomic, retain) UIView *container;
 
 @end

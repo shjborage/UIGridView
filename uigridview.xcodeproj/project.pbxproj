@@ -15,9 +15,9 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
-		9481B9ED1711C769004C1A8B /* Button_Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 9481B9EB1711C769004C1A8B /* Button_Delete.png */; };
-		9481B9EE1711C769004C1A8B /* Button_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9481B9EC1711C769004C1A8B /* Button_Delete@2x.png */; };
-		9481B9F11711CCDB004C1A8B /* UIIndexedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9481B9F01711CCDB004C1A8B /* UIIndexedButton.m */; };
+		A0E85F0A1846E63C00F4D599 /* Button_Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E85F061846E63C00F4D599 /* Button_Delete.png */; };
+		A0E85F0B1846E63C00F4D599 /* Button_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E85F071846E63C00F4D599 /* Button_Delete@2x.png */; };
+		A0E85F0C1846E63C00F4D599 /* UIIndexedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E85F091846E63C00F4D599 /* UIIndexedButton.m */; };
 		F2D03FD1150669C600F4E2C1 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D03FC3150669C600F4E2C1 /* Cell.xib */; };
 		F2D03FD2150669C600F4E2C1 /* UIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D03FC6150669C600F4E2C1 /* UIGridView.m */; };
 		F2D03FD3150669C600F4E2C1 /* UIGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D03FC8150669C600F4E2C1 /* UIGridViewCell.m */; };
@@ -41,10 +41,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* uigridview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uigridview_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* uigridview-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "uigridview-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		9481B9EB1711C769004C1A8B /* Button_Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Delete.png; sourceTree = "<group>"; };
-		9481B9EC1711C769004C1A8B /* Button_Delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_Delete@2x.png"; sourceTree = "<group>"; };
-		9481B9EF1711CCDA004C1A8B /* UIIndexedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIIndexedButton.h; sourceTree = "<group>"; };
-		9481B9F01711CCDB004C1A8B /* UIIndexedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIIndexedButton.m; sourceTree = "<group>"; };
+		A0E85F061846E63C00F4D599 /* Button_Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Delete.png; sourceTree = "<group>"; };
+		A0E85F071846E63C00F4D599 /* Button_Delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button_Delete@2x.png"; sourceTree = "<group>"; };
+		A0E85F081846E63C00F4D599 /* UIIndexedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIIndexedButton.h; sourceTree = "<group>"; };
+		A0E85F091846E63C00F4D599 /* UIIndexedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIIndexedButton.m; sourceTree = "<group>"; };
 		F2D03FC3150669C600F4E2C1 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		F2D03FC5150669C600F4E2C1 /* UIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridView.h; sourceTree = "<group>"; };
 		F2D03FC6150669C600F4E2C1 /* UIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridView.m; sourceTree = "<group>"; };
@@ -88,6 +88,10 @@
 				F2D03FCF150669C600F4E2C1 /* RootViewController.xib */,
 				1D3623240D0F684500981E51 /* uigridviewAppDelegate.h */,
 				1D3623250D0F684500981E51 /* uigridviewAppDelegate.m */,
+				A0E85F061846E63C00F4D599 /* Button_Delete.png */,
+				A0E85F071846E63C00F4D599 /* Button_Delete@2x.png */,
+				A0E85F081846E63C00F4D599 /* UIIndexedButton.h */,
+				A0E85F091846E63C00F4D599 /* UIIndexedButton.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -153,10 +157,6 @@
 				F2D03FC9150669C600F4E2C1 /* UIGridViewDelegate.h */,
 				F2D03FCA150669C600F4E2C1 /* UIGridViewRow.h */,
 				F2D03FCB150669C600F4E2C1 /* UIGridViewRow.m */,
-				9481B9EB1711C769004C1A8B /* Button_Delete.png */,
-				9481B9EC1711C769004C1A8B /* Button_Delete@2x.png */,
-				9481B9EF1711CCDA004C1A8B /* UIIndexedButton.h */,
-				9481B9F01711CCDB004C1A8B /* UIIndexedButton.m */,
 			);
 			path = UIGridView;
 			sourceTree = "<group>";
@@ -213,12 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E85F0A1846E63C00F4D599 /* Button_Delete.png in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				F2D03FD1150669C600F4E2C1 /* Cell.xib in Resources */,
+				A0E85F0B1846E63C00F4D599 /* Button_Delete@2x.png in Resources */,
 				F2D03FD7150669C600F4E2C1 /* RootViewController.xib in Resources */,
 				F2D03FD9150669EC00F4E2C1 /* default_picture.png in Resources */,
-				9481B9ED1711C769004C1A8B /* Button_Delete.png in Resources */,
-				9481B9EE1711C769004C1A8B /* Button_Delete@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				A0E85F0C1846E63C00F4D599 /* UIIndexedButton.m in Sources */,
 				1D3623260D0F684500981E51 /* uigridviewAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* uigridview.xcdatamodeld in Sources */,
 				F2D03FD2150669C600F4E2C1 /* UIGridView.m in Sources */,
@@ -237,7 +238,6 @@
 				F2D03FD4150669C600F4E2C1 /* UIGridViewRow.m in Sources */,
 				F2D03FD5150669C600F4E2C1 /* Cell.m in Sources */,
 				F2D03FD6150669C600F4E2C1 /* RootViewController.m in Sources */,
-				9481B9F11711CCDB004C1A8B /* UIIndexedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
